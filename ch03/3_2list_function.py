@@ -1,0 +1,42 @@
+nums = [1,2,3,4,5]
+names = ['tom','john','jerry','lunch','jane']
+print(nums[1])
+for name in names:
+    print(name)
+
+print(len(nums))
+nums.append(6)
+print(nums)
+nums.extend(names)
+print(nums)
+mix = ['tom',2,24,2,23,True]
+mix.insert(0,"py")
+print(mix)
+mix.remove("py")
+print(mix)
+print(mix.count(2))
+print(mix.pop(1))
+print(mix)
+print(mix.count(2))
+print(mix.index('tom'))
+print(mix)
+mix.reverse()
+print(mix)
+print(mix.pop())
+print(mix)
+a=["Tm","J","Jer","Lunch","Jane"]
+a.sort(key=len)
+print(a)
+a.sort(key=len,reverse=True)
+print(a)
+b=a.copy()
+a.clear()
+print(a)
+print(b)
+nums=[1,5,6,3,2,4]
+nums.sort()
+print(nums)
+nums.sort(reverse=True)
+print(nums)
+nums.remove(1)
+print(nums)
